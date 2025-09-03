@@ -13,6 +13,35 @@ import pixarV from './../assets/Videos/pixar.mp4'
 
 
 const ProductionHouse = () => {
+     const productionHouseList=[
+        {
+            id:1,
+            image:disney,
+            video:disneyV
+        },
+        {
+            id:2,
+            image:pixar,
+            video:pixarV
+        },
+        {
+            id:3,
+            image:marvel,
+            video:marvelV
+        },
+        {
+            id:4,
+            image:starwar,
+            video:starwarV
+        },
+        {
+            id:5,
+            image:nationalG,
+            video:nationalGeographicV
+        },
+
+    ]
+    
   return (
     <div>
       ProductionHouse
